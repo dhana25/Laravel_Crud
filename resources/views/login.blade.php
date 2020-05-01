@@ -175,7 +175,7 @@
 
                    <a href="{{action('crudcontrl@user_reg')}}" class="form-label float-right text-secondary" data-toggle="modal" data-target="#myModal">Create login</a>
                 </div>
-                 <!-- <a href="{{action('crudcontrl@forgot')}}" class="form-label float-right text-secondary" data-toggle="modal" data-target="#myModalF">Forgot Password</a> -->
+                 <a href="{{action('crudcontrl@forgot')}}" class="form-label float-right text-secondary" data-toggle="modal" data-target="#myModalF">Forgot Password</a>
               </div>
               <button type="submit" class="btn btn-primary shadow px-5">Log in</button>
             </form>
