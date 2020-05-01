@@ -37,6 +37,6 @@ Route::post('forgot','crudcontrl@forgot');
 });
 
 //Route::get('logout','crudcontrl@logout');
-Auth::routes();
+//Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
