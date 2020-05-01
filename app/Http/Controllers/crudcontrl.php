@@ -33,8 +33,11 @@ class crudcontrl extends Controller
 
     public function login(Request $request)
     {
+        // print_r($_POST); 
+        // exit;
          $name=$request->username;
          $mobile=$request->passowrd; 
+
 
          $this->validate($request,[
 
