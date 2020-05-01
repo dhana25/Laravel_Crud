@@ -174,7 +174,7 @@
                   <label for="customCheck1" class="custom-control-label">Remember Me</label>
 
                    <a href="{{action('crudcontrl@user_reg')}}" class="form-label float-right text-secondary" data-toggle="modal" data-target="#myModal">Create login</a>
-                </div>
+                </div>  
                  <a href="{{action('crudcontrl@forgot')}}" class="form-label float-right text-secondary" data-toggle="modal" data-target="#myModalF">Forgot Password</a>
               </div>
               <button type="submit" class="btn btn-primary shadow px-5">Log in</button>
@@ -233,6 +233,8 @@ $(document).ready(function ()
     var email = $('#email').val();
     var pwd = $('#pwd').val();
     var cpwd = $('#cpwd').val();
+
+    
 
    
     $.ajax({
